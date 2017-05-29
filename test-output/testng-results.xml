@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161102" started-at="2017-05-10T05:53:14Z" finished-at="2017-05-10T05:55:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161102" started-at="2017-05-10T05:53:14Z" finished-at="2017-05-10T05:55:55Z">
+      <class name="testngcase.SurveyListTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="beforeSuite" is-config="true" duration-ms="9000" started-at="2017-05-10T11:23:05Z" finished-at="2017-05-10T11:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="SurveyCert()[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="SurveyCert" is-config="true" duration-ms="50" started-at="2017-05-10T11:23:14Z" depends-on-methods="testngcase.DriverPass.beforeSuite" finished-at="2017-05-10T11:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SurveyCert -->
+        <test-method status="PASS" signature="Survey()[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="Survey" duration-ms="4593" started-at="2017-05-10T11:23:14Z" finished-at="2017-05-10T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Survey -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="174" started-at="2017-05-10T11:23:18Z" finished-at="2017-05-10T11:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Survey status=SUCCESS method=SurveyListTest.Survey()[pri:0, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Search()[pri:1, instance:testngcase.SurveyListTest@5d1659ea]" name="Search" duration-ms="1019" started-at="2017-05-10T11:23:19Z" finished-at="2017-05-10T11:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-05-10T11:23:20Z" finished-at="2017-05-10T11:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=SurveyListTest.Search()[pri:1, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Validation()[pri:2, instance:testngcase.SurveyListTest@5d1659ea]" name="Validation" duration-ms="1017" started-at="2017-05-10T11:23:20Z" finished-at="2017-05-10T11:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="40" started-at="2017-05-10T11:23:21Z" finished-at="2017-05-10T11:23:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validation status=SUCCESS method=SurveyListTest.Validation()[pri:2, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Check()[pri:3, instance:testngcase.SurveyListTest@5d1659ea]" name="Check" duration-ms="1000" started-at="2017-05-10T11:23:21Z" finished-at="2017-05-10T11:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-05-10T11:23:22Z" finished-at="2017-05-10T11:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Check status=SUCCESS method=SurveyListTest.Check()[pri:3, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AddNew()[pri:4, instance:testngcase.SurveyListTest@5d1659ea]" name="AddNew" duration-ms="1000" started-at="2017-05-10T11:23:22Z" finished-at="2017-05-10T11:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNew -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-05-10T11:23:23Z" finished-at="2017-05-10T11:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNew status=SUCCESS method=SurveyListTest.AddNew()[pri:4, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ClickCIAndRI()[pri:5, instance:testngcase.SurveyListTest@5d1659ea]" name="ClickCIAndRI" duration-ms="1000" started-at="2017-05-10T11:23:23Z" finished-at="2017-05-10T11:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCIAndRI -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="20" started-at="2017-05-10T11:23:24Z" finished-at="2017-05-10T11:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCIAndRI status=SUCCESS method=SurveyListTest.ClickCIAndRI()[pri:5, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="MakeSurveyCertificateAsNA()[pri:6, instance:testngcase.SurveyListTest@5d1659ea]" name="MakeSurveyCertificateAsNA" duration-ms="1000" started-at="2017-05-10T11:23:24Z" finished-at="2017-05-10T11:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeSurveyCertificateAsNA -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="40" started-at="2017-05-10T11:23:25Z" finished-at="2017-05-10T11:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MakeSurveyCertificateAsNA status=SUCCESS method=SurveyListTest.MakeSurveyCertificateAsNA()[pri:6, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EditAndPendingInspection()[pri:7, instance:testngcase.SurveyListTest@5d1659ea]" name="EditAndPendingInspection" duration-ms="149977" started-at="2017-05-10T11:23:25Z" finished-at="2017-05-10T11:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAndPendingInspection -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterMethod" is-config="true" duration-ms="47" started-at="2017-05-10T11:25:55Z" finished-at="2017-05-10T11:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditAndPendingInspection status=SUCCESS method=SurveyListTest.EditAndPendingInspection()[pri:7, instance:testngcase.SurveyListTest@5d1659ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testngcase.SurveyListTest@5d1659ea]" name="afterSuite" is-config="true" duration-ms="757" started-at="2017-05-10T11:25:55Z" finished-at="2017-05-10T11:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testngcase.SurveyListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
